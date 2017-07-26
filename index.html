@@ -4,11 +4,19 @@
 	<meta charset="UTF-8">
 	<title>SET THE TITLE!!!</title>
 	<!--Might be good to link bootstrap here-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>;
 </head>
 <body>
 	<!--write html below this line-->
-	
-	
+	<form>
+		<button type="button" onclick="play('rock')">Rock</button>
+		<button type="button" onclick="play('paper')">Paper</button>
+		<button type="button" onclick="play('scissors')">Scissors</button>
+		<div>
+            Results: <span id="magic">?</span>
+        </div>
+	</form>
+
 	<!--write html above this line-->
 	<!--the following line is used to link your javascript file.-->
 	<script src="app.js"></script>
