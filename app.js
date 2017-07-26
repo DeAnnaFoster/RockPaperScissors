@@ -37,7 +37,7 @@ function play(choice){
     if(player == 1 || computer == 1){
         if(player == 1){
             if(computer == 3){
-                temp = `Player Wins! \nPlayer had ${choice}. \n Computer had ${comChoice}.\n ${choice} beats ${comChoice}.`;
+                temp = `Player Wins! \nPlayer had ${choice}. \n Computer had ${comChoice}.\n ${choice}. beats ${comChoice}.`;
                 document.getElementById('magic').innerHTML = temp;
                 return; 
             }else{
